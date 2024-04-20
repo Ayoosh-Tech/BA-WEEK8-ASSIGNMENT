@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: beige;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first-part{
+    background-image: url("image/fields.jfif");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.first-part h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 160px;
+    font-size: 50px;
+    color: beige;
+}
+.second-part h2{
+    text-align: center;
+    padding-top: 70px;
+    color: green;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    height: 300px;
+}
+.content{
+    width: 250px;
+    height: 300px;
+    border: 2px solid green;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.content p{
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.image{
+    width: 100%;
+    height: 230px;
+    border-radius: 8px 8px 0 0;
+}
